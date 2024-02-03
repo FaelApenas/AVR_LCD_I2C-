@@ -1,0 +1,3 @@
+[submodule "avr-i2c-library"]
+	path = avr-i2c-library
+	url = https://github.com/Sovichea/avr-i2c-library.git
