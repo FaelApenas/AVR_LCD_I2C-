@@ -21,10 +21,18 @@
 #define LCD_ROWS 4 // Number of rows on the LCD
 #define LCD_COLS 20 // Number of columns on the LCD
 
-
-uint8_t backlight= 1; 
+//Commands---------
+//-----------------
 void R_LCD_WRITE_NIBLE(uint8_t nibble, uint8_t r_shift ); 
+void R_LCD_CMD(uint8_t cmd ); 
 void R_LCD_TRANSMIT(uint8_t data); 
+void R_LCD_STR(char *str); 
+void R_LCD_BACKLIGHT(bool state);
+void R_LCD_XY(uint8_t x , uint8_t y); 
+void R_LCD_CLEAR(); 
+
+
+
 void R_LCD_INIT();
 
 
